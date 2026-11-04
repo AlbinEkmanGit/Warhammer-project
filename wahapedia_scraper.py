@@ -489,9 +489,7 @@ def parse_datasheet(html: str, url: str, army_rule_text: dict[str, str]) -> dict
 
     core = parse_labelled_list(lines, {"CORE ABILITIES"})
     army_names = parse_labelled_list(lines, {"ARMY RULES"})
-    army_rules = [{"name": n, "description": army_rule_text.get(n) or
-                   next((v for k, v in army_rule_text.items() if k.lower() == n.lower()), "")}
-                  for n in army_names]
+    army_rules = [{"name": n} for n in army_names if n in army_rule_text]
 
     legends = bool(container.find("img", src=re.compile("legends", re.I)) or
                    container.find("img", title=re.compile("legends", re.I)))
@@ -560,6 +558,7 @@ def main() -> int:
         "source": args.url,
         "scraped_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "datasheet_count": len(results),
+        "faction_rules": [{"name": n, "description": d} for n, d in army_rule_text.items()],
         "datasheets": results,
     }
     Path(args.out).write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")

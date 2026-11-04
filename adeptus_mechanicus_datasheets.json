@@ -1,0 +1,310 @@
+{
+  "faction": "Adeptus Mechanicus",
+  "edition": "11th",
+  "source": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/",
+  "scraped_at": "2026-11-04T10:30:45+00:00",
+  "datasheet_count": 3,
+  "faction_rules": [
+    {
+      "name": "Doctrina Imperatives",
+      "description": "An Adeptus Mechanicus army marching to war is a sight both terrifying and glorious, each holy warrior a disturbing fusion of Human and machine. While the ruling Tech-Priests and their fanatical followers raise modified voices in praise of the Machine God, their Skitarii soldiery and Servitor creations are controlled by doctrina imperatives loaded by their masters to augment and adapt the warriors’ abilities.\nAt the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\nProtector Imperative\nRanged weapons equipped by models in this unit have the [HEAVY] ability.\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\nEach time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.\nConqueror Imperative\nRanged weapons equipped by models in this unit have the [ASSAULT] ability.\nImprove the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\nEach time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1."
+    }
+  ],
+  "datasheets": [
+    {
+      "name": "Thulia Ghuld",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/Thulia-Ghuld",
+      "legends": false,
+      "models": [
+        {
+          "name": "Thulia Ghuld",
+          "base_size": "(⌀80mm)",
+          "movement": "8\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Jericho-class conversion resonator – titanic impact",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D6+2",
+            "skill_type": "BS",
+            "abilities": [
+              "DEVASTATING",
+              "WOUNDS"
+            ]
+          },
+          {
+            "name": "Jericho-class conversion resonator – shockwave",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "D6+2",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST",
+              "SUSTAINED",
+              "HITS",
+              "1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Rod of the War Forge – strike",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Rod of the War Forge – sweep",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "12",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Doctrina Imperatives"
+        }
+      ],
+      "core_abilities": [],
+      "abilities": [
+        {
+          "name": "Rod of the War Forge",
+          "description": "In your Command phase, select one of the abilities in the Icon of War section (see next page). Until the start of your next Command phase, this model has that ability."
+        },
+        {
+          "name": "Mechanicus Bodyguard",
+          "description": "While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUS units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Secutor of Olympus",
+          "description": "At the start of your Shooting phase, select one enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "MONSTER",
+        "CHARACTER",
+        "MOBILE",
+        "EPIC HERO",
+        "IMPERIUM",
+        "CULT MECHANICUS",
+        "TECH-PRIEST",
+        "THULIA GHULD"
+      ],
+      "faction_keywords": [
+        "ADEPTUS MECHANICUS"
+      ]
+    },
+    {
+      "name": "Ironstrider Ballistarii",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/Ironstrider-Ballistarii",
+      "legends": false,
+      "models": [
+        {
+          "name": "Ironstrider Ballistarii",
+          "base_size": "(⌀105 x 70mm)",
+          "movement": "10\"",
+          "toughness": "7",
+          "save": "3+",
+          "wounds": "7",
+          "leadership": "7+",
+          "objective_control": "2",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin cognis autocannon",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "4",
+            "skill": "4+",
+            "strength": "9",
+            "ap": "-1",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED",
+              "HITS",
+              "1",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin cognis lascannon",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "2",
+            "skill": "4+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D6+1",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED",
+              "HITS",
+              "1",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ironstrider feet",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "4+",
+            "strength": "5",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Doctrina Imperatives"
+        }
+      ],
+      "core_abilities": [
+        "Deadly Demise 1"
+      ],
+      "abilities": [
+        {
+          "name": "Elevated Strider",
+          "description": "This unit is eligible to shoot in a turn in which it Fell Back or Advanced, and you can re-roll Desperate Escape tests taken for models in this unit."
+        },
+        {
+          "name": "Broad Spectrum Data-tether",
+          "description": "Each time you target this unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "WALKER",
+        "SMOKE",
+        "IMPERIUM",
+        "SKITARII",
+        "IRONSTRIDER BALLISTARII"
+      ],
+      "faction_keywords": [
+        "ADEPTUS MECHANICUS"
+      ]
+    },
+    {
+      "name": "Skitarii Marshal",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/Skitarii-Marshal",
+      "legends": false,
+      "models": [
+        {
+          "name": "Skitarii Marshal",
+          "base_size": "(⌀32mm)",
+          "movement": "6\"",
+          "toughness": "3",
+          "save": "4+",
+          "wounds": "3",
+          "leadership": "6+",
+          "objective_control": "1",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Mechanicus pistol",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "1",
+            "skill": "3+",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "DEVASTATING",
+              "WOUNDS",
+              "PISTOL"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Control stave",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "3+",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Doctrina Imperatives"
+        }
+      ],
+      "core_abilities": [
+        "Support"
+      ],
+      "abilities": [
+        {
+          "name": "Control Edict",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Servo-skull Uplink",
+          "description": "Once per battle, at the start of any phase, you can select one friendly SKITARII unit that is Battle-shocked and within 6\" of this model. That unit is no longer Battle-shocked."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "IMPERIUM",
+        "SKITARII",
+        "MARSHAL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS MECHANICUS"
+      ]
+    }
+  ]
+}
