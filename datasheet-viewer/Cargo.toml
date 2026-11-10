@@ -1,0 +1,13 @@
+[package]
+name = "datasheet-viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net"] }
+# "bundled" compiles SQLite into the program, so no system SQLite is needed
+rusqlite = { version = "0.31", features = ["bundled"] }
+# "axum" lets a handler return maud's Markup directly
+maud = { version = "0.26", features = ["axum"] }
+serde = { version = "1", features = ["derive"] }

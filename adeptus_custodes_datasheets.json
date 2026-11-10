@@ -1,0 +1,3545 @@
+{
+  "faction": "Adeptus Custodes",
+  "edition": "11th",
+  "source": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+  "scraped_at": "2026-11-10T11:42:35+00:00",
+  "datasheet_count": 36,
+  "faction_rules": [
+    {
+      "name": "Martial Ka’tah",
+      "description": "The Adeptus Custodes have developed many thousands of martial ka’tahs. Custodians are proficient in many of these arts, shifting stances according to the battlefield situation.\nAt the start of your Command phase, friendly ADEPTUS CUSTODES units with this ability are readied. While a friendly unit is readied, you can select one of the ka’tah abilities presented below for that unit to use. If you do, that unit is no longer readied.\nEach ka’tah ability will tell you when that ka’tah ability can be used, and the effects that ka’tah ability has on the unit using it.\nWe recommend placing a token next to each readied unit, removing it when that unit is no longer readied.\nFavoured Ka’tah\nMany of the most prominent shield hosts favour a specific martial ka’tah above all others.\nAll detachments tagged ‘Unique: Shield Host’ state a Favoured Ka’tah. If you selected one of these detachments, the ka’tah ability that is the Favoured Ka’tah of that detachment grants the additional effect listed in that detachment.\nExample: If you selected the Solar Watch detachment, when you select the Calistus ka’tah ability for a readied unit, that unit has +2\" M in addition to the normal effect of Calistus.\nCONSERVAI\nKA’TAH ABILITY\nWHEN: Your Command phase.\nTARGET: One friendly readied unit.\nEFFECT: Until the end of the turn:\nBeing engaged/battle-shocked does not prevent your unit from being eligible to start an action.\nStarting an action does not prevent your unit from being eligible to shoot.\nCALISTUS\nKA’TAH ABILITY\nWHEN: Your Movement phase, when a friendly readied unit is selected to move.\nTARGET: That readied unit.\nEFFECT: When your unit makes a normal/advance/fall-back move, your unit can move through all types of model.\nSALVUS\nKA’TAH ABILITY\nWHEN: Your Shooting phase, when a friendly readied unit is selected to shoot.\nTARGET: That readied unit.\nEFFECT: Your unit can ignore modifiers to your unit’s:\nBS.\nHit rolls and wound rolls.\nDACATARAI\nKA’TAH ABILITY\nWHEN: Start of the Fight phase.\nTARGET: One friendly readied unit.\nEFFECT: Your unit’s melee attacks that target an enemy unit (excluding MONSTER/VEHICLE units) can re-roll hit rolls of 1.\nKAPTARIS\nKA’TAH ABILITY\nWHEN: Start of the Fight phase.\nTARGET: One friendly readied unit.\nEFFECT: Melee attacks that target your unit have -1 to hit rolls.\nRENDAX\nKA’TAH ABILITY\nWHEN: Fight phase, when a friendly readied unit is selected to fight.\nTARGET: One friendly readied unit.\nEFFECT: Your unit’s melee attacks have [Lethal Hits: Monster/Vehicle]."
+    },
+    {
+      "name": "Aegis of the Emperor",
+      "description": "The Adeptus Custodes are the shield of the Emperor: indomitable and nigh unbreakable.\nFriendly ADEPTUS CUSTODES units with this ability have Feel No Pain 5+ against mortal wounds."
+    },
+    {
+      "name": "Aquila Commander",
+      "description": "Shield-Captains who bear the title Aquila Commander have proven themselves true masters of battlefield tactics.\nAt the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
+    },
+    {
+      "name": "Daughters of the Abyss",
+      "description": "Bearers of the Pariah gene, Null Maidens are inured to psychic powers. Their Warp-smothering aura also provides limited protection for the Custodians at whose side they fight.\nFriendly ANATHEMA PSYKANA units with this ability have Feel No Pain 3+ against psychic attacks.\nFriendly ANATHEMA PSYKANA units with this ability have the following ability:\nPsychic Null (Aura): Friendly ADEPTUS CUSTODES units within 6\" of this unit have Feel No Pain 5+ against psychic attacks.\n#### Anathema Psykana\nThough the Adeptus Custodes often fight alongside the Silent Sisterhood, they take orders only from their own commanders, or from the Emperor Himself.\nYou can include ANATHEMA PSYKANA units in your army, even though they do not have the ADEPTUS CUSTODES faction keyword.\nWhen mustering your army, unless otherwise stated:\nYou cannot select ANATHEMA PSYKANA as your army faction.\nYou cannot select an ANATHEMA PSYKANA model to be your WARLORD."
+    },
+    {
+      "name": "Special Move Types",
+      "description": "The following are special move types that certain or all of your units are eligible to make.\nSHOCK DISEMBARK MOVE18.07\nSET-UP DISTANCE: 3\"\nELIGIBLE IF:\nEmbarked within a TRANSPORT on the battlefield\nDid not embark within that TRANSPORT this phase\nEFFECT: Set up as described in Set Up (03.02).\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT.\nAFTER MOVING: Your unit is not eligible to declare a charge until the end of the turn."
+    }
+  ],
+  "datasheets": [
+    {
+      "name": "Custodian Wardens",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Custodian-Wardens",
+      "legends": false,
+      "models": [
+        {
+          "name": "Custodian Wardens",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "6",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castellan Axe",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan Axe",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Living Fortress",
+          "description": "Attacks that target this unit have -1 AP."
+        },
+        {
+          "name": "Vexilla",
+          "description": "This unit has +1 OC. This unit can ignore modifiers to this unit’s Ld."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Shield-Captain in Allarus Terminator Armour",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Shield-Captain-in-Allarus-Terminator-Armour",
+      "legends": false,
+      "models": [
+        {
+          "name": "Shield-captain In Allarus Terminator Armour",
+          "base_size": "(⌀40mm)",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "9",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Balistus Grenade Launcher",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "BLAST 1"
+            ]
+          },
+          {
+            "name": "Castellan Axe",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan Axe",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "CLEAVE 1 CLEAVE 1"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Aquila Commander"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Master of Ka’tahs (Once per battle round, per unit)",
+          "description": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
+        },
+        {
+          "name": "Archeotech Teleport-shunter (Once per battle, per unit)",
+          "description": "In your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "IMPERIUM",
+        "SHIELD-CAPTAIN",
+        "TERMINATOR"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Coronus Grav-Carrier",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Coronus-Grav-Carrier",
+      "legends": false,
+      "models": [
+        {
+          "name": "Coronus Grav-Carrier",
+          "base_size": "(⌀150 x 95mm)",
+          "movement": "12\"",
+          "toughness": "12",
+          "save": "2+",
+          "wounds": "16",
+          "leadership": "5+",
+          "objective_control": "5",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin Arachnus Blaze Cannon",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin Lastrum Bolt Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin Neutronium Cascade Projectors",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 1",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "4+",
+            "strength": "8",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 6",
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Repulsor Suspensor Technology (Once per phase, per unit)",
+          "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks and is unengaged, this unit can make a normal move of up to D6\"."
+        },
+        {
+          "name": "Assault Vehicle",
+          "description": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "FLY",
+        "FRAME",
+        "GRAV-ASSAULT",
+        "IMPERIUM",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Prosecutor Squad",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Prosecutor-Squad",
+      "legends": false,
+      "models": [
+        {
+          "name": "Prosecutor Squad",
+          "base_size": "(⌀32mm)",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "2"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Boltgun",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "1",
+            "skill": "3+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ANTI-PSYKER 4+",
+              "ASSAULT",
+              "RAPID FIRE 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gun Stock",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "2",
+            "skill": "3+",
+            "strength": "3",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [],
+      "abilities": [
+        {
+          "name": "Purity of Execution",
+          "description": "In your Shooting phase, you can select one visible enemy unit within 18\" of this unit. That unit is detected: While a unit is detected, that unit has +3\" detection range."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    },
+    {
+      "name": "Vigilator Squad",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Vigilator-Squad",
+      "legends": false,
+      "models": [
+        {
+          "name": "Vigilator Squad",
+          "base_size": "(⌀32mm)",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1"
+        }
+      ],
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Executioner Greatblade",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "3+",
+            "strength": "5",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS",
+              ": PSYKER : PSYKER"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [],
+      "abilities": [
+        {
+          "name": "Deft Parry",
+          "description": "Melee attacks that target this unit have -1 to hit rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    },
+    {
+      "name": "Witchseeker Squad",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Witchseeker-Squad",
+      "legends": false,
+      "models": [
+        {
+          "name": "Witchseeker Squad",
+          "base_size": "(⌀32mm)",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "wounds": "1",
+          "leadership": "6+",
+          "objective_control": "1"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Flamer",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "4",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ANTI-PSYKER 4+",
+              "ASSAULT",
+              "BLAST 1",
+              "TORRENT"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gun Stock",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "2",
+            "skill": "3+",
+            "strength": "3",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [
+        "Scouts 7\""
+      ],
+      "abilities": [
+        {
+          "name": "Sanctified Flames",
+          "description": "In your Shooting phase, when this unit has shot, you can select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll if that enemy unit is a PSYKER unit."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    },
+    {
+      "name": "Blade Champion",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Blade-Champion",
+      "legends": false,
+      "models": [
+        {
+          "name": "Blade Champion",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "7",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Vaultswords - Behemor",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": [
+              "DEVASTATING WOUNDS"
+            ]
+          },
+          {
+            "name": "Vaultswords - Hurricanis",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "10",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "CLEAVE 1 CLEAVE 1"
+            ]
+          },
+          {
+            "name": "Vaultswords - Victus",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-3",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "PRECISION"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Swift Onslaught",
+          "description": "This unit can: Re-roll advance rolls. Re-roll charge rolls."
+        },
+        {
+          "name": "Sword of the Throne",
+          "description": "At the start of the first battle round, select one enemy unit to be this model’s mark: This model’s attacks that target this model’s mark have +1 to wound rolls. Each time this model’s mark is destroyed, select one enemy unit to be this model’s mark."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Trajann Valoris",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Trajann-Valoris",
+      "legends": false,
+      "models": [
+        {
+          "name": "Trajann Valoris",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "10",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Eagle’s Scream",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Watcher’s Axe",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": [
+              "CLEAVE 1 CLEAVE 1"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Aquila Commander"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Feel No Pain 5+",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Captain-General (Aura)",
+          "description": "Friendly ADEPTUS CUSTODES units (excluding MONSTER/VEHICLE units) within 6\" of this model can: Re-roll hit rolls of 1. Re-roll wound rolls of 1."
+        },
+        {
+          "name": "Moment Shackle (Once per battle, per army)",
+          "description": "At the start of any phase, you can select one of the following to take effect until the end of the phase: This model’s Watcher’s Axe weapon has +3 A. This model has 3+ InSv."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Valerian",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Valerian",
+      "legends": true,
+      "models": [
+        {
+          "name": "Valerian",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "8",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Gnosis",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gnosis",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "7",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-3",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Aquila Commander"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Feel No Pain 6+",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Golden Laurels",
+          "description": "Attacks that target this unit have -1 AP."
+        },
+        {
+          "name": "Hero of Lion's Gate (Once per battle, per unit)",
+          "description": "After making a hit roll, wound roll or save roll for this model, you can change the result to an unmodified 6."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "IMPERIUM",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Allarus Custodians",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Allarus-Custodians",
+      "legends": false,
+      "models": [
+        {
+          "name": "Allarus Custodians",
+          "base_size": "(⌀40mm)",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "6",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Balistus Grenade Launcher",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "BLAST 1"
+            ]
+          },
+          {
+            "name": "Castellan Axe",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan Axe",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Slayer of Tyrants",
+          "description": "This unit’s melee attacks that target a unit with a T greater than this unit’s T have +1 to wound rolls."
+        },
+        {
+          "name": "Vexilla",
+          "description": "This unit has +1 OC. This unit can ignore modifiers to this unit’s Ld."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TERMINATOR"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Aleya",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Aleya",
+      "legends": true,
+      "models": [
+        {
+          "name": "Aleya",
+          "base_size": "(⌀32mm)",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Somnus",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-3",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": [
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [
+        "Feel No Pain 5+",
+        "Leader",
+        "Scouts 6\""
+      ],
+      "abilities": [
+        {
+          "name": "Tactical Perception",
+          "description": "This unit has Fights First."
+        },
+        {
+          "name": "Tenacious Spirit",
+          "description": "While this unit is below starting strength, this unit’s attacks have +1 to hit rolls. While this unit is below half-strength, this unit’s attacks have +1 to wound rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "EPIC HERO",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    },
+    {
+      "name": "Knight-Centura",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Knight-Centura",
+      "legends": false,
+      "models": [
+        {
+          "name": "Knight-Centura",
+          "base_size": "(⌀32mm)",
+          "movement": "7\"",
+          "toughness": "3",
+          "save": "3+",
+          "wounds": "4",
+          "leadership": "6+",
+          "objective_control": "1",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Master-crafted Boltgun",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ANTI-PSYKER 4+",
+              "ASSAULT",
+              "RAPID FIRE 1"
+            ]
+          },
+          {
+            "name": "Master-crafted Flamer",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "4",
+            "skill": "-",
+            "strength": "4",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ANTI-PSYKER 4+",
+              "ASSAULT",
+              "BLAST 2",
+              "TORRENT"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Executioner Greatblade",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS",
+              "CLEAVE 1 CLEAVE 1 : PSYKER : PSYKER"
+            ]
+          },
+          {
+            "name": "Gun Stock",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "3",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [
+        "Scouts 7\"",
+        "Support"
+      ],
+      "abilities": [
+        {
+          "name": "Seeker’s Instincts",
+          "description": "This unit has +2\" M. This unit can re-roll advance rolls and charge rolls."
+        },
+        {
+          "name": "Corner the Quarry",
+          "description": "When an enemy unit (excluding MONSTER/VEHICLE units) engaged with this unit makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    },
+    {
+      "name": "Shield-Captain",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Shield-Captain",
+      "legends": false,
+      "models": [
+        {
+          "name": "Shield-Captain",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "8",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Castellan Axe",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Pyrithite Spear",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "MELTA 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Castellan Axe",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Eternity-pattern Paragon Blade",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": [
+              "PRECISION"
+            ]
+          },
+          {
+            "name": "Guardian Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "CLEAVE 1 CLEAVE 1"
+            ]
+          },
+          {
+            "name": "Pyrithite Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "CLEAVE 1 CLEAVE 1"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aquila Commander"
+        },
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Master of Ka’tahs (Once per battle round, per unit)",
+          "description": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
+        },
+        {
+          "name": "Vengeful Surge (Once per battle, per unit)",
+          "description": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
+        },
+        {
+          "name": "Praesidium Shield",
+          "description": "Attacks allocated to this model have -1 D."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "IMPERIUM",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Shield-Captain on Dawneagle Jetbike",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Shield-Captain-on-Dawneagle-Jetbike",
+      "legends": false,
+      "models": [
+        {
+          "name": "Shield-captain On Dawneagle Jetbike",
+          "base_size": "(⌀75 x 42mm)",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "10",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hurricane Bolter",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Salvo Launcher",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Interceptor Lance",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "LANCE"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Aquila Commander"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "abilities": [
+        {
+          "name": "Master of Ka’tahs (Once per battle round, per unit)",
+          "description": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
+        },
+        {
+          "name": "Sweeping Advance (Once per battle, per unit)",
+          "description": "At the end of the Fight phase, if this unit was eligible to fight this phase: If this unit is unengaged, this unit can make a normal move. Or: If this unit is engaged, this unit can make a fall-back move."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "MOUNTED",
+        "CHARACTER",
+        "FLY",
+        "IMPERIUM",
+        "SHIELD-CAPTAIN"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Custodian Guard Sodality",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Custodian-Guard-Sodality",
+      "legends": false,
+      "models": [
+        {
+          "name": "Custodian Guard Sodality",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Guardian Spear",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Guardian Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Impenetrable Defence",
+          "description": "This unit’s attacks have [sustained Hits 1: non-Monster/Vehicle] if any of the following apply: This unit is within range of an objective. The target of those attacks is within range of an objective."
+        },
+        {
+          "name": "Vexilla",
+          "description": "This unit has +1 OC. This unit can ignore modifiers to this unit’s Ld."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Sentinel Guard Sodality",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Sentinel-Guard-Sodality",
+      "legends": false,
+      "models": [
+        {
+          "name": "Sentinel Guard Sodality",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Sentinel Blade",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "CLOSE-QUARTERS CLOSE-QUARTERS"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Sentinel Blade",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Stand Vigil",
+          "description": "This unit’s attacks have [Lethal Hits: non-Monster/Vehicle] if any of the following apply: This unit is within range of an objective. The target of those attacks is within range of an objective."
+        },
+        {
+          "name": "Praesidium Shield",
+          "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls."
+        },
+        {
+          "name": "Vexilla",
+          "description": "This unit has +1 OC. This unit can ignore modifiers to this unit’s Ld."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Ares Gunship",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Ares-Gunship",
+      "legends": false,
+      "models": [
+        {
+          "name": "Ares Gunship",
+          "base_size": "(⌀160mm)",
+          "movement": "-",
+          "toughness": "12",
+          "save": "2+",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "-",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus Heavy Blaze Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Arachnus Magna-blaze Cannon",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "18",
+            "ap": "-3",
+            "damage": "D6+6",
+            "skill_type": "BS",
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "9",
+            "skill": "4+",
+            "strength": "9",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Deadly Demise D6",
+        "Damaged 7"
+      ],
+      "abilities": [
+        {
+          "name": "Infernus Firebombs",
+          "description": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative and AIRCRAFT units) within 24\" of this unit: Ranged attacks that target that enemy unit have [IGNORES COVER] until the end of your next turn. Roll one D6 for each model in that enemy unit: On a 6, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "AIRCRAFT",
+        "FLY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Aquilon Terminators with Solarite Power Gauntlets",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Aquilon-Terminators-with-Solarite-Power-Gauntlets",
+      "legends": false,
+      "models": [
+        {
+          "name": "Aquilon Terminators with Solarite Power Gauntlets",
+          "base_size": "(⌀50mm)",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "6",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrathic Combi-destructor",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Solarite Power Gauntlet",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Dread Foe",
+          "description": "This unit’s melee attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TERMINATOR"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Aquilon Terminators with Solarite Power Talons",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Aquilon-Terminators-with-Solarite-Power-Talons",
+      "legends": false,
+      "models": [
+        {
+          "name": "Aquilon Terminators with Solarite Power Talons",
+          "base_size": "(⌀50mm)",
+          "movement": "7\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "6",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Infernus Firepike",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 2",
+              "TORRENT"
+            ]
+          },
+          {
+            "name": "Lastrum Storm Bolter",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Solarite Power Talon",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": [
+              "SUSTAINED HITS 2"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Reap a Terrible Tally",
+          "description": "This unit’s attacks that target an INFANTRY unit can: Re-roll hit rolls of 1. Re-roll wound rolls of 1."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TERMINATOR"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Venatari with Kinetic Destroyers",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Venatari-with-Kinetic-Destroyers",
+      "legends": false,
+      "models": [
+        {
+          "name": "Venatari with Kinetic Destroyers",
+          "base_size": "(⌀40mm)",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Kinetic Destroyer",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT",
+              "SUSTAINED HITS 1",
+              "CLOSE-QUARTERS CLOSE-QUARTERS"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Tarsus Buckler",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": [
+              "SUSTAINED HITS 1"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Take Wing",
+          "description": "At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+        },
+        {
+          "name": "Neutronium Cascade Mine (Once per battle, per unit)",
+          "description": "At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+: That enemy unit suffers D3 mortal wounds. Or: If that enemy unit is a VEHICLE/MONSTER unit, that enemy unit suffers 2D3 mortal wounds."
+        },
+        {
+          "name": "Strike from the Skies",
+          "description": "In your Shooting phase, if this unit made an ingress move this turn, this unit’s ranged attacks can re-roll hit rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "EXPLOSIVES",
+        "FLY",
+        "IMPERIUM",
+        "JUMP PACK"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Venatari with Verutum Lances",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Venatari-with-Verutum-Lances",
+      "legends": false,
+      "models": [
+        {
+          "name": "Venatari with Verutum Lances",
+          "base_size": "(⌀40mm)",
+          "movement": "12\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Verutum Lance",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": [
+              "ASSAULT"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Verutum Lance",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "LANCE",
+              "PRECISION"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Take Wing",
+          "description": "At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+        },
+        {
+          "name": "Neutronium Cascade Mine (Once per battle, per unit)",
+          "description": "At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+: That enemy unit suffers D3 mortal wounds. Or: If that enemy unit is a VEHICLE/MONSTER unit, that enemy unit suffers 2D3 mortal wounds."
+        },
+        {
+          "name": "Swift Ruin (Once per phase, per army)",
+          "description": "You can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do: That use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "EXPLOSIVES",
+        "FLY",
+        "IMPERIUM",
+        "JUMP PACK"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Custodian Guard Sodality with Adrasite Spears",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Custodian-Guard-Sodality-with-Adrasite-Spears",
+      "legends": true,
+      "models": [
+        {
+          "name": "Custodian Guard Sodality with Adrasite Spears",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrasite Spear",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Adrasite Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Martial Ka’tah"
+        },
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Stand Vigil",
+          "description": "This unit’s attacks can: Re-roll wound rolls of 1. Or: If this unit is within range of an objective, re-roll wound rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Custodian Guard Sodality with Pyrithite Spears",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Custodian-Guard-Sodality-with-Pyrithite-Spears",
+      "legends": true,
+      "models": [
+        {
+          "name": "Custodian Guard Sodality with Pyrithite Spears",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Pyrithite Spear",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "MELTA 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Pyrithite Spear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "No Foe Shall Stand (Once per battle, per unit)",
+          "description": "This unit’s ranged attacks have [LETHAL HITS] and [IGNORES COVER]."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Sagittarum Custodians Sodality",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Sagittarum-Custodians-Sodality",
+      "legends": true,
+      "models": [
+        {
+          "name": "Sagittarum Custodians Sodality",
+          "base_size": "(⌀40mm)",
+          "movement": "8\"",
+          "toughness": "7",
+          "save": "2+",
+          "wounds": "5",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrastus Bolt Caliver",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Misericordia",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Disintegration Beams (Once per battle, per unit)",
+          "description": "In your Shooting phase, you can use this ability. If you do, this unit’s ranged attacks have [DEVASTATING WOUNDS]."
+        },
+        {
+          "name": "Saturation Volleys",
+          "description": "In your Shooting phase, after this unit has shot, you can select one enemy non-MONSTER/VEHICLE unit hit by those attacks. That unit is suppressed until the start of your next turn: While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "INFANTRY",
+        "IMPERIUM",
+        "TRUSTED SENTINEL"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Gyrfalcon Jetbike Sodality",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Gyrfalcon-Jetbike-Sodality",
+      "legends": false,
+      "models": [
+        {
+          "name": "Gyrfalcon Jetbike Sodality",
+          "base_size": "(⌀75 x 42mm)",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "9",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrathic Devastator",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Arachnus Volley Cannon",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
+            ]
+          },
+          {
+            "name": "Lastrum Bolt Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1"
+            ]
+          },
+          {
+            "name": "Twin Corvae Las-pulser",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Solarite Power Lance",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": [
+              "LANCE"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Death Blow",
+          "description": "If this unit made a charge move this turn, this unit’s melee attacks have +1 AP."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "MOUNTED",
+        "FLY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Vertus Praetors",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Vertus-Praetors",
+      "legends": false,
+      "models": [
+        {
+          "name": "Vertus Praetors",
+          "base_size": "(⌀75 x 42mm)",
+          "movement": "12\"",
+          "toughness": "8",
+          "save": "2+",
+          "wounds": "7",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hurricane Bolter",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Salvo Launcher",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": []
+          }
+        ],
+        "melee": [
+          {
+            "name": "Interceptor Lance",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "8",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "WS",
+            "abilities": [
+              "LANCE"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Quicksilver Execution",
+          "description": "If this unit made a charge move this turn, this unit’s melee attacks have [Sustained Hits 1]."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "MOUNTED",
+        "FLY",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Orion Assault Dropship",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Orion-Assault-Dropship",
+      "legends": false,
+      "models": [
+        {
+          "name": "Orion Assault Dropship",
+          "base_size": "(⌀160mm)",
+          "movement": "14\"",
+          "toughness": "12",
+          "save": "2+",
+          "wounds": "22",
+          "leadership": "6+",
+          "objective_control": "0",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus Heavy Blaze Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Spiculus Heavy Bolt Launcher",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "7",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 2"
+            ]
+          },
+          {
+            "name": "Twin Lastrum Bolt Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "9",
+            "skill": "4+",
+            "strength": "9",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 7",
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "abilities": [
+        {
+          "name": "Assault Dropship",
+          "description": "In your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to make a tactical disembark move from this unit, if that unit is then selected to make an advance move, that advance move does not prevent that unit from being eligible to declare a charge."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "FLY",
+        "IMPERIUM",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Venerable Land Raider",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Venerable-Land-Raider",
+      "legends": true,
+      "models": [
+        {
+          "name": "Venerable Land Raider",
+          "base_size": "(⌀Use model)",
+          "movement": "10\"",
+          "toughness": "12",
+          "save": "2+",
+          "wounds": "16",
+          "leadership": "7+",
+          "objective_control": "1"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Godhammer Lascannon",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Hunter-killer Missile",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "14",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "BS",
+            "abilities": [
+              "ONE SHOT"
+            ]
+          },
+          {
+            "name": "Storm Bolter",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Twin Heavy Bolter",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Tracks",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "6",
+            "skill": "4+",
+            "strength": "8",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 5",
+        "Deadly Demise D6"
+      ],
+      "abilities": [
+        {
+          "name": "Assault Ramp",
+          "description": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "FRAME",
+        "IMPERIUM",
+        "SMOKE",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Caladius Annihilator Grav-Tank",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Caladius-Annihilator-Grav-Tank",
+      "legends": false,
+      "models": [
+        {
+          "name": "Caladius Annihilator Grav-Tank",
+          "base_size": "(⌀150 x 95mm)",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "wounds": "14",
+          "leadership": "5+",
+          "objective_control": "4",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Arachnus Blaze Carronade",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D6+2",
+            "skill_type": "BS",
+            "abilities": [
+              "LETHAL HITS",
+              ": MONSTER/VEHICLE : MONSTER/VEHICLE"
+            ]
+          },
+          {
+            "name": "Twin Lastrum Bolt Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin Neutronium Cascade Projectors",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 1",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "4+",
+            "strength": "6",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 5",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Advanced Firepower",
+          "description": "This unit’s ranged attacks that target a MONSTER/VEHICLE unit can: Re-roll one hit roll. Re-roll one wound roll. Re-roll one damage roll."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "CALADIUS",
+        "FLY",
+        "FRAME",
+        "GRAV-ASSAULT",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Caladius Grav-Tank",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Caladius-Grav-Tank",
+      "legends": false,
+      "models": [
+        {
+          "name": "Caladius Grav-Tank",
+          "base_size": "(⌀150 x 95mm)",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "wounds": "14",
+          "leadership": "5+",
+          "objective_control": "4",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Iliastus Accelerator Cannon",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-1",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 4",
+              "SUSTAINED HITS 1",
+              ": NON- MONSTER/VEHICLE : NON- MONSTER/VEHICLE"
+            ]
+          },
+          {
+            "name": "Twin Lastrum Bolt Cannon",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin Neutronium Cascade Projectors",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 1",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "4",
+            "skill": "4+",
+            "strength": "6",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 5",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Destructor Optics",
+          "description": "This unit’s ranged attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "CALADIUS",
+        "FLY",
+        "FRAME",
+        "GRAV-ASSAULT",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Pallas Grav-Attack",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Pallas-Grav-Attack",
+      "legends": false,
+      "models": [
+        {
+          "name": "Pallas Grav-Attack",
+          "base_size": "(⌀105 x 70mm)",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "2+",
+          "wounds": "10",
+          "leadership": "5+",
+          "objective_control": "2",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Twin Arachnus Blaze Cannon",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "TWIN-LINKED"
+            ]
+          },
+          {
+            "name": "Twin Iliastus Accelerator Fusil",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-1",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Hull",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "4+",
+            "strength": "6",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        }
+      ],
+      "core_abilities": [
+        "Deadly Demise 1",
+        "Deep Strike"
+      ],
+      "abilities": [
+        {
+          "name": "Mobile Hunter",
+          "description": "In your Shooting phase, when this unit has shot, you can use this ability. If you do: This unit can make a normal move of up to D6\". This unit is not eligible to declare a charge until the end of the turn."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "FLY",
+        "FRAME",
+        "GRAV-ASSAULT",
+        "IMPERIUM"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Contemptor-Achillus Dreadnought",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Contemptor-Achillus-Dreadnought",
+      "legends": false,
+      "models": [
+        {
+          "name": "Contemptor-Achillus Dreadnought",
+          "base_size": "(⌀60mm)",
+          "movement": "9\"",
+          "toughness": "10",
+          "save": "2+",
+          "wounds": "12",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "5+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrathic Combi-destructor",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Dreadspear",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Lastrum Storm Bolter",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 3"
+            ]
+          },
+          {
+            "name": "Twin Infernus Incinerator",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 2",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Dreadspear",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "WS",
+            "abilities": [
+              "LANCE"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 4",
+        "Deadly Demise D3"
+      ],
+      "abilities": [
+        {
+          "name": "Unyielding Ancient",
+          "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "DREADNOUGHT",
+        "IMPERIUM",
+        "WALKER"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Contemptor-Galatus Dreadnought",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Contemptor-Galatus-Dreadnought",
+      "legends": false,
+      "models": [
+        {
+          "name": "Contemptor-Galatus Dreadnought",
+          "base_size": "(⌀60mm)",
+          "movement": "9\"",
+          "toughness": "10",
+          "save": "2+",
+          "wounds": "12",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Warblade",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "4",
+            "skill": "-",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 2",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Warblade",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "8",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "3",
+            "skill_type": "WS",
+            "abilities": [
+              "SUSTAINED HITS 1",
+              "CLEAVE 1 CLEAVE 1 : NON- MONSTER/VEHICLE : NON- MONSTER/VEHICLE"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 4",
+        "Deadly Demise D3"
+      ],
+      "abilities": [
+        {
+          "name": "Unyielding Ancient",
+          "description": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "DREADNOUGHT",
+        "IMPERIUM",
+        "WALKER"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Telemon Heavy Dreadnought",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Telemon-Heavy-Dreadnought",
+      "legends": false,
+      "models": [
+        {
+          "name": "Telemon Heavy Dreadnought",
+          "base_size": "(⌀100mm)",
+          "movement": "10\"",
+          "toughness": "11",
+          "save": "2+",
+          "wounds": "14",
+          "leadership": "5+",
+          "objective_control": "4",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Adrathic Desolator",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "4",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-2",
+            "damage": "4",
+            "skill_type": "BS",
+            "abilities": []
+          },
+          {
+            "name": "Arachnus Storm Cannon",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "12",
+            "skill": "2+",
+            "strength": "6",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
+            ]
+          },
+          {
+            "name": "Iliastus Accelerator Culverin",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "3",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-1",
+            "damage": "3",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 3"
+            ]
+          },
+          {
+            "name": "Spiculus Bolt Launcher",
+            "type": "ranged",
+            "range": "36\"",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 2"
+            ]
+          },
+          {
+            "name": "Twin Neutronium Cascade Projectors",
+            "type": "ranged",
+            "range": "12\"",
+            "attacks": "3",
+            "skill": "-",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "BLAST 1",
+              "TORRENT",
+              "TWIN-LINKED"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Caestus Fist",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "14",
+            "ap": "-3",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": []
+          },
+          {
+            "name": "Dual Caestus Fists",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "7",
+            "skill": "2+",
+            "strength": "14",
+            "ap": "-3",
+            "damage": "4",
+            "skill_type": "WS",
+            "abilities": [
+              "TWIN-LINKED"
+            ]
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 5",
+        "Deadly Demise D3"
+      ],
+      "abilities": [
+        {
+          "name": "Guardian Eternal",
+          "description": "Ranged attacks that target this unit have -1 D."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "DREADNOUGHT",
+        "IMPERIUM",
+        "WALKER"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Venerable Contemptor Dreadnought",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Venerable-Contemptor-Dreadnought",
+      "legends": true,
+      "models": [
+        {
+          "name": "Venerable Contemptor Dreadnought",
+          "base_size": "(⌀60mm)",
+          "movement": "9\"",
+          "toughness": "10",
+          "save": "2+",
+          "wounds": "12",
+          "leadership": "5+",
+          "objective_control": "3",
+          "invulnerable_save": "4+"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Combi-bolter",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 2"
+            ]
+          },
+          {
+            "name": "Kheres-pattern Assault Cannon",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "6",
+            "skill": "2+",
+            "strength": "7",
+            "ap": "-2",
+            "damage": "2",
+            "skill_type": "BS",
+            "abilities": [
+              "SUSTAINED HITS 1"
+            ]
+          },
+          {
+            "name": "Multi-melta",
+            "type": "ranged",
+            "range": "18\"",
+            "attacks": "2",
+            "skill": "2+",
+            "strength": "10",
+            "ap": "-3",
+            "damage": "D3+2",
+            "skill_type": "BS",
+            "abilities": [
+              "MELTA 3"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Contemptor Fist",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "5",
+            "skill": "2+",
+            "strength": "12",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Aegis of the Emperor"
+        },
+        {
+          "name": "Martial Ka’tah"
+        }
+      ],
+      "core_abilities": [
+        "Damaged 4",
+        "Deadly Demise D3"
+      ],
+      "abilities": [
+        {
+          "name": "Unyielding Ancient (Once per battle, per unit)",
+          "description": "At the end of a phase in which this model is destroyed, roll one D6: On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged and with 3 wounds remaining."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "IMPERIUM",
+        "WALKER"
+      ],
+      "faction_keywords": [
+        "ADEPTUS CUSTODES"
+      ]
+    },
+    {
+      "name": "Anathema Psykana Rhino",
+      "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/Anathema-Psykana-Rhino",
+      "legends": false,
+      "models": [
+        {
+          "name": "Anathema Psykana Rhino",
+          "base_size": "(⌀Use model)",
+          "movement": "12\"",
+          "toughness": "9",
+          "save": "3+",
+          "wounds": "10",
+          "leadership": "6+",
+          "objective_control": "2"
+        }
+      ],
+      "weapons": {
+        "ranged": [
+          {
+            "name": "Hunter-killer Missile",
+            "type": "ranged",
+            "range": "48\"",
+            "attacks": "1",
+            "skill": "2+",
+            "strength": "14",
+            "ap": "-3",
+            "damage": "D3+3",
+            "skill_type": "BS",
+            "abilities": [
+              "ONE SHOT"
+            ]
+          },
+          {
+            "name": "Storm Bolter",
+            "type": "ranged",
+            "range": "24\"",
+            "attacks": "2",
+            "skill": "3+",
+            "strength": "5",
+            "ap": "-1",
+            "damage": "1",
+            "skill_type": "BS",
+            "abilities": [
+              "RAPID FIRE 2"
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured Tracks",
+            "type": "melee",
+            "range": "Melee",
+            "attacks": "3",
+            "skill": "4+",
+            "strength": "6",
+            "ap": "0",
+            "damage": "1",
+            "skill_type": "WS",
+            "abilities": []
+          }
+        ]
+      },
+      "army_rules": [
+        {
+          "name": "Daughters of the Abyss"
+        }
+      ],
+      "core_abilities": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+      ],
+      "abilities": [
+        {
+          "name": "Assault Vehicle",
+          "description": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
+        }
+      ],
+      "wargear_abilities": [],
+      "keywords": [
+        "VEHICLE",
+        "DEDICATED TRANSPORT",
+        "FRAME",
+        "IMPERIUM",
+        "SMOKE",
+        "TRANSPORT"
+      ],
+      "faction_keywords": [
+        "ANATHEMA PSYKANA"
+      ]
+    }
+  ]
+}

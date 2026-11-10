@@ -33,7 +33,7 @@ from urllib.parse import urldefrag, urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
-FACTION_URL = "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/"
+FACTION_URL = "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/"
 FACTION_PATH = urlparse(FACTION_URL).path.rstrip("/")
 USER_AGENT = "Mozilla/5.0 (compatible; personal-datasheet-scraper/1.0)"
 
@@ -214,7 +214,8 @@ def _weapon_from_row(cells: list[Tag], wtype: str) -> dict | None:
     name = " ".join(bold.get_text(" ").split()) if bold else lines[0]
     spans = [" ".join(s.get_text(" ").split()) for s in name_cell.select(".kwb, .kwbu")]
     if spans:
-        abilities = _unique([s.strip("[] ").upper() for s in spans if s.strip("[] ")])
+        # abilities = _unique([s.strip("[] ").upper() for s in spans if s.strip("[] ")])
+        abilities = split_abilities(" ".join(spans))
     else:
         rest = " ".join(lines)
         rest = rest.replace(name, " ") if name else rest
@@ -435,11 +436,11 @@ def parse_army_rules(faction_html: str) -> dict[str, str]:
     return {name: "\n".join(body).strip() for name, body in rules.items()}
 
 
-def discover_datasheets(faction_html: str) -> list[dict]:
+def discover_datasheets(faction_html: str, faction_url: str) -> list[dict]:
     soup = BeautifulSoup(faction_html, "html.parser")
     found: dict[str, dict] = {}
     for a in soup.find_all("a", href=True):
-        url, _ = urldefrag(urljoin(FACTION_URL, a["href"]))
+        url, _ = urldefrag(urljoin(faction_url, a["href"]))
         p = urlparse(url)
         path = p.path.rstrip("/")
         if p.netloc != "wahapedia.ru" or not path.startswith(FACTION_PATH + "/"):
@@ -512,10 +513,18 @@ def parse_datasheet(html: str, url: str, army_rule_text: dict[str, str]) -> dict
 # --------------------------------------------------------------------------
 # Main
 # --------------------------------------------------------------------------
-def main() -> int:
+def main(Name: str, Url: str) -> int:
+    faction_url = Url
+
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+
+    ap.add_argument("--url", default=faction_url)
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--url", default=FACTION_URL)
-    ap.add_argument("--out", default="adeptus_mechanicus_datasheets.json")
+    ap.add_argument("--url", default=faction_url)
+    ap.add_argument("--out", default=f"{Name.lower().replace(' ', '_')}_datasheets.json")
     ap.add_argument("--cache-dir", default="cache")
     ap.add_argument("--delay", type=float, default=1.5, help="seconds between requests")
     ap.add_argument("--limit", type=int, default=0, help="only scrape the first N datasheets (testing)")
@@ -530,7 +539,8 @@ def main() -> int:
     army_rule_text = parse_army_rules(faction_html)
     log.info("Army rules found: %s", ", ".join(army_rule_text) or "none")
 
-    sheets = discover_datasheets(faction_html)
+    # Locate all datasheet links on the faction page, and filter out Legends if requested.
+    sheets = discover_datasheets(faction_html, args.url)
     if args.no_legends:
         sheets = [s for s in sheets if not s["legends"]]
     if args.limit:
@@ -539,6 +549,7 @@ def main() -> int:
         log.warning("Only %d datasheet links found – the page layout may have changed.", len(sheets))
     log.info("%d datasheets to scrape", len(sheets))
 
+    # Enumerate the datasheet pages, parse them, and collect the results.
     results, suspicious = [], []
     for n, s in enumerate(sheets, 1):
         log.info("[%d/%d] %s", n, len(sheets), s["slug"])
@@ -552,8 +563,9 @@ def main() -> int:
             suspicious.append(ds["name"])
         results.append(ds)
 
+    # Write the final JSON file with all datasheets and faction rules.
     payload = {
-        "faction": "Adeptus Mechanicus",
+        "faction": Name,
         "edition": "11th",
         "source": args.url,
         "scraped_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -570,4 +582,12 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(
+        "Adeptus Custodes",
+        "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/"
+    ))
+
+    # sys.exit(main(
+    #         "Adeptus Mechanicus",
+    #         "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/"
+    #     ))

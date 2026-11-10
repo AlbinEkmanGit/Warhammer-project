@@ -2,7 +2,7 @@
   "faction": "Adeptus Mechanicus",
   "edition": "11th",
   "source": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/",
-  "scraped_at": "2026-11-04T10:35:15+00:00",
+  "scraped_at": "2026-11-10T10:22:58+00:00",
   "datasheet_count": 38,
   "faction_rules": [
     {
@@ -41,8 +41,7 @@
             "damage": "D6+2",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS"
+              "DEVASTATING WOUNDS"
             ]
           },
           {
@@ -57,9 +56,7 @@
             "skill_type": "BS",
             "abilities": [
               "BLAST",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "SUSTAINED HITS 1"
             ]
           }
         ],
@@ -155,9 +152,7 @@
             "damage": "3",
             "skill_type": "BS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           },
@@ -172,9 +167,7 @@
             "damage": "D6+1",
             "skill_type": "BS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           }
@@ -255,8 +248,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           }
@@ -336,8 +328,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           }
@@ -430,8 +421,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER"
+              "IGNORES COVER"
             ]
           },
           {
@@ -445,8 +435,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TORRENT"
             ]
           },
@@ -461,8 +450,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER"
+              "IGNORES COVER"
             ]
           },
           {
@@ -476,8 +464,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TWIN-LINKED"
             ]
           }
@@ -621,8 +608,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "PISTOL"
             ]
           },
@@ -637,8 +623,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS"
+              "DEVASTATING WOUNDS"
             ]
           }
         ],
@@ -732,8 +717,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "TORRENT"
             ]
           }
@@ -813,12 +797,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "9",
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           }
@@ -944,9 +924,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ]
@@ -1012,8 +990,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
@@ -1028,13 +1005,9 @@
             "damage": "D3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS",
-              "RAPID",
-              "FIRE",
-              "1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ]
           },
           {
@@ -1182,8 +1155,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
@@ -1198,8 +1170,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS"
+              "DEVASTATING WOUNDS"
             ]
           }
         ],
@@ -1278,8 +1249,7 @@
             "skill_type": "BS",
             "abilities": [
               "PISTOL",
-              "DEVASTATING",
-              "WOUNDS"
+              "DEVASTATING WOUNDS"
             ]
           },
           {
@@ -1294,8 +1264,7 @@
             "skill_type": "BS",
             "abilities": [
               "BLAST",
-              "IGNORES",
-              "COVER"
+              "IGNORES COVER"
             ]
           },
           {
@@ -1309,8 +1278,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "PISTOL"
             ]
           },
@@ -1325,8 +1293,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "PISTOL",
               "TORRENT"
             ]
@@ -1344,12 +1311,9 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS",
-              "EXTRA",
-              "ATTACKS"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS"
             ]
           },
           {
@@ -1420,9 +1384,7 @@
             "skill_type": "BS",
             "abilities": [
               "PISTOL",
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ],
@@ -1438,9 +1400,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ]
@@ -1502,8 +1462,7 @@
             "damage": "2",
             "skill_type": "WS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS"
+              "DEVASTATING WOUNDS"
             ]
           }
         ]
@@ -1564,8 +1523,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           }
@@ -1594,8 +1552,7 @@
             "damage": "2",
             "skill_type": "WS",
             "abilities": [
-              "EXTRA",
-              "ATTACKS"
+              "EXTRA ATTACKS"
             ]
           }
         ]
@@ -1665,8 +1622,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           }
@@ -1683,10 +1639,8 @@
             "damage": "2",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ]
           }
         ]
@@ -1752,8 +1706,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
@@ -1768,13 +1721,9 @@
             "damage": "D3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS",
-              "RAPID",
-              "FIRE",
-              "1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ]
           },
           {
@@ -1814,8 +1763,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "4+"
+              "ANTI-INFANTRY 4+"
             ]
           },
           {
@@ -1923,11 +1871,8 @@
             "damage": "3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "RAPID",
-              "FIRE",
-              "2"
+              "ANTI-VEHICLE 4+",
+              "RAPID FIRE 2"
             ]
           },
           {
@@ -1941,8 +1886,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "2+",
+              "ANTI-INFANTRY 2+",
               "BLAST"
             ]
           }
@@ -1959,8 +1903,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+"
+              "ANTI-VEHICLE 4+"
             ]
           },
           {
@@ -2031,8 +1974,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TORRENT"
             ]
           },
@@ -2047,8 +1989,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "2+"
+              "ANTI-VEHICLE 2+"
             ]
           },
           {
@@ -2088,11 +2029,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
-              "RAPID",
-              "FIRE",
-              "1"
+              "IGNORES COVER",
+              "RAPID FIRE 1"
             ]
           }
         ],
@@ -2166,8 +2104,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PRECISION"
             ]
           },
@@ -2182,10 +2119,8 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "3+",
-              "DEVASTATING",
-              "WOUNDS",
+              "ANTI-INFANTRY 3+",
+              "DEVASTATING WOUNDS",
               "PRECISION"
             ]
           },
@@ -2200,8 +2135,7 @@
             "damage": "2",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "3+",
+              "ANTI-INFANTRY 3+",
               "PRECISION"
             ]
           }
@@ -2262,9 +2196,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "2"
+              "RAPID FIRE 2"
             ]
           },
           {
@@ -2278,8 +2210,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TORRENT"
             ]
           },
@@ -2294,8 +2225,7 @@
             "damage": "D6",
             "skill_type": "BS",
             "abilities": [
-              "MELTA",
-              "2"
+              "MELTA 2"
             ]
           },
           {
@@ -2309,8 +2239,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "TWIN-LINKED"
             ]
           }
@@ -2327,8 +2256,7 @@
             "damage": "D3+3",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "3+"
+              "ANTI-VEHICLE 3+"
             ]
           }
         ]
@@ -2390,12 +2318,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "9",
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           }
@@ -2479,12 +2403,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "3",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -2498,8 +2418,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER"
+              "IGNORES COVER"
             ]
           },
           {
@@ -2513,9 +2432,7 @@
             "damage": "D6+1",
             "skill_type": "BS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           }
@@ -2599,12 +2516,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "9",
-              "SUSTAINED",
-              "HITS",
-              "1",
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
               "TWIN-LINKED"
             ]
           }
@@ -2693,8 +2606,7 @@
             "skill_type": "BS",
             "abilities": [
               "BLAST",
-              "INDIRECT",
-              "FIRE"
+              "INDIRECT FIRE"
             ]
           },
           {
@@ -2708,12 +2620,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "3",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -2819,12 +2727,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "RAPID",
-              "FIRE",
-              "3",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -2838,8 +2742,7 @@
             "damage": "D6+1",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-FLY",
-              "2+"
+              "ANTI-FLY 2+"
             ]
           },
           {
@@ -2854,9 +2757,7 @@
             "skill_type": "BS",
             "abilities": [
               "BLAST",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -2871,9 +2772,7 @@
             "skill_type": "BS",
             "abilities": [
               "BLAST",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -2901,8 +2800,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-FLY",
-              "4+",
+              "ANTI-FLY 4+",
               "TWIN-LINKED"
             ]
           },
@@ -2917,8 +2815,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TWIN-LINKED"
             ]
           }
@@ -3003,8 +2900,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "PISTOL"
             ]
           },
@@ -3019,8 +2915,7 @@
             "damage": "3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "3+",
+              "ANTI-INFANTRY 3+",
               "HEAVY",
               "PRECISION"
             ]
@@ -3104,8 +2999,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "PISTOL"
             ]
           }
@@ -3122,12 +3016,9 @@
             "damage": "2",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-WALKER",
-              "2+",
+              "ANTI-WALKER 2+",
               "LANCE",
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ]
@@ -3194,8 +3085,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+"
+              "ANTI-VEHICLE 4+"
             ]
           }
         ],
@@ -3273,8 +3163,7 @@
             "damage": "D6",
             "skill_type": "BS",
             "abilities": [
-              "MELTA",
-              "3"
+              "MELTA 3"
             ]
           }
         ],
@@ -3290,12 +3179,9 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS",
-              "EXTRA",
-              "ATTACKS"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS"
             ]
           },
           {
@@ -3321,8 +3207,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "EXTRA",
-              "ATTACKS"
+              "EXTRA ATTACKS"
             ]
           }
         ]
@@ -3392,8 +3277,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
@@ -3408,8 +3292,7 @@
             "damage": "3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "3+",
+              "ANTI-INFANTRY 3+",
               "HEAVY",
               "PRECISION"
             ]
@@ -3425,9 +3308,8 @@
             "damage": "D3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-MONSTER",
-              "4+",
-              "ANTI-VEHICLE",
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
               "HEAVY",
               "PRECISION"
             ]
@@ -3510,10 +3392,8 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ]
           },
           {
@@ -3527,8 +3407,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "4+"
+              "ANTI-INFANTRY 4+"
             ]
           },
           {
@@ -3542,8 +3421,7 @@
             "damage": "2",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-INFANTRY",
-              "4+"
+              "ANTI-INFANTRY 4+"
             ]
           }
         ],
@@ -3640,8 +3518,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER"
+              "IGNORES COVER"
             ]
           }
         ],
@@ -3766,9 +3643,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ]
@@ -3846,8 +3721,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TORRENT"
             ]
           }
@@ -3876,9 +3750,7 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "SUSTAINED",
-              "HITS",
-              "2"
+              "SUSTAINED HITS 2"
             ]
           }
         ]
@@ -3940,11 +3812,8 @@
             "damage": "3",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "RAPID",
-              "FIRE",
-              "1"
+              "ANTI-VEHICLE 4+",
+              "RAPID FIRE 1"
             ]
           },
           {
@@ -3959,9 +3828,7 @@
             "skill_type": "BS",
             "abilities": [
               "HEAVY",
-              "SUSTAINED",
-              "HITS",
-              "1"
+              "SUSTAINED HITS 1"
             ]
           },
           {
@@ -3975,8 +3842,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
+              "IGNORES COVER",
               "TORRENT"
             ]
           },
@@ -3991,8 +3857,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
@@ -4007,8 +3872,7 @@
             "damage": "D6",
             "skill_type": "BS",
             "abilities": [
-              "MELTA",
-              "2"
+              "MELTA 2"
             ]
           },
           {
@@ -4022,11 +3886,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "IGNORES",
-              "COVER",
-              "RAPID",
-              "FIRE",
-              "1"
+              "IGNORES COVER",
+              "RAPID FIRE 1"
             ]
           }
         ],
@@ -4105,10 +3966,8 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ]
           },
           {
@@ -4122,8 +3981,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           }
@@ -4152,10 +4010,8 @@
             "damage": "1",
             "skill_type": "WS",
             "abilities": [
-              "ANTI-VEHICLE",
-              "4+",
-              "DEVASTATING",
-              "WOUNDS",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
               "LANCE"
             ]
           }
@@ -4222,8 +4078,7 @@
             "damage": "1",
             "skill_type": "BS",
             "abilities": [
-              "DEVASTATING",
-              "WOUNDS",
+              "DEVASTATING WOUNDS",
               "PISTOL"
             ]
           },
