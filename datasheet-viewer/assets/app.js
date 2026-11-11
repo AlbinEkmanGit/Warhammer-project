@@ -3,6 +3,7 @@
   var search = document.getElementById("search");
   var hideLegends = document.getElementById("hide-legends");
   var count = document.getElementById("count");
+  var groups = Array.prototype.slice.call(document.querySelectorAll("section.group"));
 
   function applyFilter() {
     var q = search.value.trim().toLowerCase();
@@ -13,6 +14,9 @@
       var visible = matches && !legendsHidden;
       el.hidden = !visible;
       if (visible) shown++;
+    });
+    groups.forEach(function (g) {
+      g.hidden = !g.querySelector("details.datasheet:not([hidden])");
     });
     count.textContent = shown + " shown";
   }

@@ -284,6 +284,40 @@ fn load_abilities(conn: &Connection, ds_id: i64, kind: &str) -> rusqlite::Result
 // HTML rendering (maud escapes all text automatically)
 // ---------------------------------------------------------------------------
 
+/// Group headings, in the order they appear on the page.
+/// A datasheet goes into the FIRST group whose keyword it has, so list the most
+/// specific groups first (EPIC HERO before CHARACTER before INFANTRY).
+const GROUPS: &[(&str, &str)] = &[
+    ("EPIC HERO", "Epic Heroes"),
+    ("CHARACTER", "Characters"),
+    ("BATTLELINE", "Battleline"),
+    ("DEDICATED TRANSPORT", "Dedicated Transports"),
+    ("AIRCRAFT", "Aircraft"),
+    ("TRANSPORT", "Transports"),
+    ("WALKER", "Walkers"),
+    ("MONSTER", "Monsters"),
+    ("VEHICLE", "Vehicles"),
+    ("MOUNTED", "Mounted"),
+    ("INFANTRY", "Infantry"),
+];
+const OTHER_GROUP: &str = "Other";
+
+fn group_datasheets(sheets: &[Datasheet]) -> Vec<(&'static str, Vec<&Datasheet>)> {
+    let mut groups: Vec<(&'static str, Vec<&Datasheet>)> =
+        GROUPS.iter().map(|(_, title)| (*title, Vec::new())).collect();
+    groups.push((OTHER_GROUP, Vec::new()));
+
+    for ds in sheets {
+        let idx = GROUPS
+            .iter()
+            .position(|(kw, _)| ds.keywords.iter().any(|k| k.eq_ignore_ascii_case(kw)))
+            .unwrap_or(GROUPS.len());
+        groups[idx].1.push(ds);
+    }
+    groups.retain(|(_, list)| !list.is_empty()); // no empty headings
+    groups
+}
+
 fn show(v: &Option<String>) -> &str {
     match v.as_deref() {
         Some(s) if !s.is_empty() => s,
@@ -312,7 +346,6 @@ fn render_page(p: &Page) -> Markup {
                     }
                 }
                 div.toolbar {
-                    // eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
                     select #faction-select {
                     @for faction in &p.factions {
                         option
@@ -323,12 +356,6 @@ fn render_page(p: &Page) -> Markup {
                             }
                         }
                     }
-                    input #search type="search" placeholder="Search name or keyword…" autocomplete="off";
-                    button #expand type="button" { "Expand all" }
-                    button #collapse type="button" { "Collapse all" }
-                    label { input #hide-legends type="checkbox"; " Hide Legends" }
-                    span #count.count { (total) " shown" }
-                    // eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
                     input #search type="search" placeholder="Search name or keyword…" autocomplete="off";
                     button #expand type="button" { "Expand all" }
@@ -337,7 +364,12 @@ fn render_page(p: &Page) -> Markup {
                     span #count.count { (total) " shown" }
                 }
                 main #list {
-                    @for ds in &p.datasheets { (render_datasheet(ds)) }
+                    @for (title, list) in group_datasheets(&p.datasheets) {
+                        section.group {
+                            h2.group-title { (title) span.group-count { " (" (list.len()) ")" } }
+                            @for ds in list { (render_datasheet(ds)) }
+                        }
+                    }
                 }
                 script { (PreEscaped(JS)) }
             }

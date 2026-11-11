@@ -200,3 +200,14 @@ details.rule > summary { display: inline; cursor: pointer; color: var(--accent-2
   color: var(--muted);
 }
 .keywords b { color: var(--text); }
+
+.group-title {
+  margin: 28px 0 8px;
+  padding-bottom: 4px;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  border-bottom: 2px solid var(--accent);
+}
+.group-count { color: var(--muted); font-weight: 400; }
